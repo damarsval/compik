@@ -1,0 +1,215 @@
+@media (max-width: 1000px) {
+  .header-container {
+    padding: 25px 90px;
+    margin: 0 auto;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+.category-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background-color: var(--header-color);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.pc-builds {
+  grid-template-columns: 1fr;
+  column-gap: 16px;
+  row-gap: 50px;
+  padding-top: 0px;
+}
+
+  .footer-middle {
+    padding-top: 60px;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .shop-name-container {
+    margin-right: 10px; 
+  }
+
+  .shop-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fe5e41;
+    margin: 0;
+  }
+
+  .search-bar-container {
+    display: none;
+   
+    padding-top: 8px;
+    position: relative;
+    width: 30%;
+    justify-content: flex-start; /* or space-between based on your layout */
+    margin-right: 14px;
+  }
+
+  .search-bar {
+    outline: none;
+    height: 35px;
+    background-color: var(--header-color);
+    font-size: 14px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 2px;
+    padding-left: 10px;
+    max-width: 100%; /* Adjust the width as needed */
+    color: rgb(150, 150, 150);
+  }
+
+  .search-btn {
+    background-color: var(--header-color);
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 2px;
+    border-left: none;
+    height: 35px;
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+    
+  }
+
+  .burger {
+    display: flex; /* Ensure the burger menu is visible */
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20px;
+    height: 14px;
+  }
+
+  .footer-contacts-item {
+    margin-right: 90px;
+  }
+}
+
+@media (max-width: 576px) {
+  .shop-name-container {
+    margin-right: 2px; 
+   }
+
+   .shop-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color:#fe5e41;
+    margin: 0;
+  }
+
+  
+  
+  
+  .burger {
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 25px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+
+  .header {
+    margin-bottom: 80px;
+}
+
+.why-us {
+  margin-bottom: 200px;
+}
+
+.footer-contacts-link {
+  font-size: 14px;
+}
+
+.footer-contacts-item {
+    margin-bottom: 30px;
+}
+
+  .footer-middle {
+    padding-top: 60px;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+}
+
+@media (max-width: 1600px) {
+  .header-container {
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; /* Позволяет элементам переноситься */
+  }
+
+  .shop-name {
+    font-size: 32px; /* Уменьшаем размер шрифта */
+  }
+
+  .search-bar-container {
+    
+    min-width: 50%; /* Ограничиваем минимальную ширину */
+    margin: 10px 0; /* Добавляем вертикальные отступы */
+  }
+
+
+  .burger {
+    display: flex; /* Показываем бургер-меню */
+    
+  }
+
+  .info-container {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    overflow-y: auto;
+    padding: 50px 40px;
+    background-color: black;
+    animation: burgerAnimation 0.4s;
+  }
+.info-container ul {
+  padding-left: 40px;
+  flex-direction: column;
+  row-gap: 60px;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 0;
+ 
+
+  font-family: Roboto;
+  font-size: 30px;
+  color: rgb(150, 150, 150);
+  list-style: none;
+}
+
+.footer-middle {
+  column-gap: 60px;
+}
+}
+
+  

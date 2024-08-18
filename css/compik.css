@@ -1,0 +1,143 @@
+
+
+
+.container {
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+  color: whitesmoke;
+}
+
+.category-row { 
+
+  position: relative;
+}
+
+
+
+.category-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+  background-color: var(--header-color);
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.pc-builds-section {
+  margin-bottom: 80px;
+}
+
+.pc-builds {
+  width: 100%;
+  background-color: var(--body-color);
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  column-gap: 16px;
+  row-gap: 40px;
+  
+}
+
+
+
+.pc-builds-container {
+  background-color: #1a1919;
+  border: none;
+  border-radius: 50px;
+  max-height: 700px;
+  max-width: 100%;
+  transition: box-shadow 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+  
+}
+
+/*.pc-builds-container:hover {
+  box-shadow: 0px 0px 8px rgba(217, 60, 8, 0.7),
+              0px 0px 8px rgba(217, 60, 8, 0.7),
+              0px 0px 8px rgba(217, 60, 8, 0.7),
+              0px 0px 8px rgba(217, 60, 8, 0.7),
+              0px 0px 8px rgba(217, 60, 8, 0.7),
+              0px 0px 8px rgba(217, 60, 8, 0.7);
+}*/
+
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 400px;
+}
+
+
+.thumbnail {
+  max-width: 100%;
+  height: 100%;
+ object-fit: cover;
+}
+
+.pc-build-info {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.build-title {
+  text-align: center;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.build-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+
+  transition: color 0.3s ease-in-out;
+}
+
+.build-link:hover {
+  color: #fe5e41;
+}
+
+.build-txt {
+  margin: 0;
+  color: rgb(183, 183, 183);
+  font-size: 1.8rem;
+  line-height: 28px;
+  max-width: 670px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-bottom: 25px;
+}
+button {
+  background-color: #1a1919;
+  color: white;
+  border: 1px solid rgb(159, 159, 159);
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #1a1919;
+} 
+
+
