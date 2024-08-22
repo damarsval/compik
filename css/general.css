@@ -4,7 +4,6 @@
 
 
 :root {
-  --city-fontsize: 16px;
   --head-fontsize:48px;
   --list-fontsize:16px;
   --header-color:rgb(26, 26, 26);
@@ -26,14 +25,14 @@ body {
 div {
   font-family: Roboto, sans-serif;
 }
+
 img {
   max-width: 100%;
 }
 
-
-
-div {
-  font-family: Roboto, sans-serif;
+a {
+  text-decoration: none;
+  color: var(--list-fontsize);
 }
 
 
